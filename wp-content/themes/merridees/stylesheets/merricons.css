@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'merricons';
+  src:  url('../fonts/merricons.eot?bf94lp');
+  src:  url('../fonts/merricons.eot?bf94lp#iefix') format('embedded-opentype'),
+    url('../fonts/merricons.ttf?bf94lp') format('truetype'),
+    url('../fonts/merricons.woff?bf94lp') format('woff'),
+    url('../fonts/merricons.svg?bf94lp#merricons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'merricons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ins:before {
+  content: "\e900";
+}
+.icon-ylp:before {
+  content: "\e600";
+}
+.icon-urb:before {
+  content: "\e601";
+}
+.icon-twt:before {
+  content: "\e602";
+}
+.icon-fsq:before {
+  content: "\e603";
+}
+.icon-fbk:before {
+  content: "\e604";
+}

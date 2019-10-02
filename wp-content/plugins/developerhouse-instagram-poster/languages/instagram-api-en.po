@@ -1,0 +1,206 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-04-29 17:10+0530\n"
+"PO-Revision-Date: 2018-04-29 17:10+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e\n"
+"X-Poedit-SearchPath-0: wordpress-instagram-poster.php\n"
+
+#: wordpress-instagram-poster.php:123
+msgid "Error: "
+msgstr ""
+
+#: wordpress-instagram-poster.php:134 wordpress-instagram-poster.php:152
+msgid "Sending..."
+msgstr ""
+
+#: wordpress-instagram-poster.php:138 wordpress-instagram-poster.php:155
+msgid "Successfully sent"
+msgstr ""
+
+#: wordpress-instagram-poster.php:140 wordpress-instagram-poster.php:157
+msgid "Error:"
+msgstr ""
+
+#: wordpress-instagram-poster.php:169
+msgid "Settings - Instagram Poster"
+msgstr ""
+
+#: wordpress-instagram-poster.php:170 wordpress-instagram-poster.php:180
+#: wordpress-instagram-poster.php:449
+msgid "Instagram Poster"
+msgstr ""
+
+#: wordpress-instagram-poster.php:181
+msgid "The plugin allows to publish posts and stories on your Instagram account."
+msgstr ""
+
+#: wordpress-instagram-poster.php:191
+msgid "Save Changes"
+msgstr ""
+
+#: wordpress-instagram-poster.php:192
+msgid "Preview"
+msgstr ""
+
+#: wordpress-instagram-poster.php:207
+msgid "Settings"
+msgstr ""
+
+#: wordpress-instagram-poster.php:212
+msgid "Instagram login"
+msgstr ""
+
+#: wordpress-instagram-poster.php:228
+msgid "Instagram password"
+msgstr ""
+
+#: wordpress-instagram-poster.php:244
+msgid "Plugin status"
+msgstr ""
+
+#: wordpress-instagram-poster.php:252
+msgid "Send post to instagram when publish"
+msgstr ""
+
+#: wordpress-instagram-poster.php:253
+msgid "Don't post automatically to instagram"
+msgstr ""
+
+#: wordpress-instagram-poster.php:261
+msgid "How to make auto-posts?"
+msgstr ""
+
+#: wordpress-instagram-poster.php:269
+msgid "Use WP Cron to Schedule auto posts"
+msgstr ""
+
+#: wordpress-instagram-poster.php:270
+msgid "Publish Immediately after posting"
+msgstr ""
+
+#: wordpress-instagram-poster.php:289
+msgid "Use text on Image includes Title & URL"
+msgstr ""
+
+#: wordpress-instagram-poster.php:298 wordpress-instagram-poster.php:315
+#: wordpress-instagram-poster.php:332 wordpress-instagram-poster.php:349
+#: wordpress-instagram-poster.php:366 wordpress-instagram-poster.php:382
+#: wordpress-instagram-poster.php:399
+msgid "Enable"
+msgstr ""
+
+#: wordpress-instagram-poster.php:299 wordpress-instagram-poster.php:316
+#: wordpress-instagram-poster.php:333 wordpress-instagram-poster.php:350
+#: wordpress-instagram-poster.php:367 wordpress-instagram-poster.php:383
+#: wordpress-instagram-poster.php:400
+msgid "Disable"
+msgstr ""
+
+#: wordpress-instagram-poster.php:307
+msgid "Insert tags of post/product as hashtags?"
+msgstr ""
+
+#: wordpress-instagram-poster.php:324
+msgid "Insert categories of post/product as hashtags?"
+msgstr ""
+
+#: wordpress-instagram-poster.php:341
+msgid "Insert title of post/product in caption?"
+msgstr ""
+
+#: wordpress-instagram-poster.php:358
+msgid "Insert Excerpt of post/product in caption?"
+msgstr ""
+
+#: wordpress-instagram-poster.php:374
+msgid "Insert url of post/product in caption?"
+msgstr ""
+
+#: wordpress-instagram-poster.php:390
+msgid "Enable random story of post/product?"
+msgstr ""
+
+#: wordpress-instagram-poster.php:407
+msgid "Random story upload interval of posts?"
+msgstr ""
+
+#: wordpress-instagram-poster.php:430
+msgid "Bit.ly API access token for URL Shortener"
+msgstr ""
+
+#: wordpress-instagram-poster.php:469
+msgid "Instagram Story sending..."
+msgstr ""
+
+#: wordpress-instagram-poster.php:472
+msgid "Instagram Story no thumbnail"
+msgstr ""
+
+#: wordpress-instagram-poster.php:474
+msgid "Instagram Story not sent to instagram"
+msgstr ""
+
+#: wordpress-instagram-poster.php:476
+msgid "Instagram Story not yet sent..."
+msgstr ""
+
+#: wordpress-instagram-poster.php:482 wordpress-instagram-poster.php:490
+#: wordpress-instagram-poster.php:499 wordpress-instagram-poster.php:507
+#: wordpress-instagram-poster.php:514
+msgid " to instagram as Story"
+msgstr ""
+
+#: wordpress-instagram-poster.php:483 wordpress-instagram-poster.php:491
+#: wordpress-instagram-poster.php:500 wordpress-instagram-poster.php:508
+#: wordpress-instagram-poster.php:515
+msgid " to instagram as Post"
+msgstr ""
+
+#: wordpress-instagram-poster.php:494
+msgid "Instagram Post sending..."
+msgstr ""
+
+#: wordpress-instagram-poster.php:497 wordpress-instagram-poster.php:678
+#: wordpress-instagram-poster.php:688 wordpress-instagram-poster.php:730
+#: wordpress-instagram-poster.php:739
+msgid "Authorisation error"
+msgstr ""
+
+#: wordpress-instagram-poster.php:505
+msgid "Instagram Post no thumbnail"
+msgstr ""
+
+#: wordpress-instagram-poster.php:512
+msgid "Instagram Post not yet sent to instagram"
+msgstr ""
+
+#: wordpress-instagram-poster.php:519
+msgid "Instagram Post not yet sent..."
+msgstr ""
+
+#: wordpress-instagram-poster.php:521
+msgid "Send to instagram as Story"
+msgstr ""
+
+#: wordpress-instagram-poster.php:522
+msgid "Send to instagram as Post"
+msgstr ""
+
+#: wordpress-instagram-poster.php:533
+msgid "Posted on"
+msgstr ""
+
+#: wordpress-instagram-poster.php:617 wordpress-instagram-poster.php:700
+#: wordpress-instagram-poster.php:750
+msgid "No thumbnail"
+msgstr ""

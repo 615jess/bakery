@@ -1,0 +1,16 @@
+[12-Feb-2019 19:58:19 America/Detroit] PHP Fatal error:  Call to undefined function language_attributes() in /home/merridee/public_html/wp-content/themes/merridees/header.php on line 8
+[12-Feb-2019 19:58:20 America/Detroit] PHP Fatal error:  Call to undefined function get_header() in /home/merridee/public_html/wp-content/themes/merridees/index.php on line 7
+[12-Feb-2019 19:58:20 America/Detroit] PHP Fatal error:  Call to undefined function get_header() in /home/merridee/public_html/wp-content/themes/merridees/index.php on line 7
+[12-Feb-2019 19:58:21 America/Detroit] PHP Fatal error:  Call to undefined function get_header() in /home/merridee/public_html/wp-content/themes/merridees/index.php on line 7
+[12-Feb-2019 19:58:21 America/Detroit] PHP Fatal error:  Call to undefined function get_header() in /home/merridee/public_html/wp-content/themes/merridees/index.php on line 7
+[20-Feb-2019 14:13:04 America/Detroit] PHP Fatal error:  Call to undefined function language_attributes() in /home/merridee/public_html/wp-content/themes/merridees/header.php on line 8
+[20-Feb-2019 14:13:04 America/Detroit] PHP Fatal error:  Call to undefined function get_header() in /home/merridee/public_html/wp-content/themes/merridees/404.php on line 7
+[20-Feb-2019 14:13:05 America/Detroit] PHP Fatal error:  Call to undefined function get_header() in /home/merridee/public_html/wp-content/themes/merridees/index.php on line 7
+[20-Feb-2019 14:13:05 America/Detroit] PHP Fatal error:  Call to undefined function get_header() in /home/merridee/public_html/wp-content/themes/merridees/404.php on line 7
+[20-Feb-2019 14:13:05 America/Detroit] PHP Fatal error:  Call to undefined function get_header() in /home/merridee/public_html/wp-content/themes/merridees/index.php on line 7
+[24-Feb-2019 14:49:41 America/Detroit] PHP Fatal error:  Call to undefined function language_attributes() in /home/merridee/public_html/wp-content/themes/merridees/header.php on line 8
+[24-Feb-2019 14:49:41 America/Detroit] PHP Fatal error:  Call to undefined function get_header() in /home/merridee/public_html/wp-content/themes/merridees/404.php on line 7
+[24-Feb-2019 14:49:41 America/Detroit] PHP Fatal error:  Call to undefined function get_header() in /home/merridee/public_html/wp-content/themes/merridees/index.php on line 7
+[24-Feb-2019 14:49:41 America/Detroit] PHP Fatal error:  Call to undefined function get_header() in /home/merridee/public_html/wp-content/themes/merridees/404.php on line 7
+[24-Feb-2019 14:49:41 America/Detroit] PHP Fatal error:  Call to undefined function get_header() in /home/merridee/public_html/wp-content/themes/merridees/index.php on line 7
+[25-Feb-2019 09:09:17 America/Detroit] PHP Fatal error:  Call to undefined function get_header() in /home/merridee/public_html/wp-content/themes/merridees/index.php on line 7
