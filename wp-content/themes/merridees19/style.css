@@ -1,3 +1,5 @@
+
+
 @charset "UTF-8";
 /*
 Theme Name: Merridees 2019
@@ -8,3 +10,74 @@ Template: twentynineteen
  */
 
 @import url("../twentynineteen/style.css");
+
+
+.wp-block-media-text {
+	grid-template-columns:  30%;
+}
+
+
+
+
+article#post-3505.post-3505.page.type-page.status-publish.hentry.entry div.entry-content div.wp-block-cover.has-background-dim  {
+	background: url(images/mwave_wht.png) 0 bottom repeat-x;
+	opacity: 1;
+}
+
+body.page .entry .entry-content > *,
+.entry .entry-summary > * {
+    max-width: none;
+	
+}
+
+body.page .entry .entry-content {
+	margin-right: 0;
+	margin-left: 0;
+	max-width: none;
+	padding-left: 0px;
+	padding-right: 0;
+}
+
+.entry-content .wp-block-media-text {
+	max-width: 1220px;
+	margin-right: 66px;
+	margin-left: 66px;
+	padding-right: 66px;
+	padding-left: 66px;
+}
+
+div.entry-content div.wp-block-cover.has-background-dim {
+	background-size: cover;
+}
+
+article#post-3505.post-3505.page.type-page.status-publish.hentry.entry div.entry-content div.wp-block-cover.has-background-dim {
+		background-size: cover;
+	
+}
+
+
+article#post-3505.post-3505.page.type-page.status-publish.hentry.entry div.entry-content div.wp-block-cover.has-background-dim ::after{
+	
+}
+
+.wp-block-cover-image.has-background-dim:before, .wp-block-cover.has-background-dim:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: inherit;
+    opacity: .8;
+    z-index: 1;
+	content: url(images/mwave_wht.png)
+}
+.wavewht {
+	background: url(images/mwave_wht.png) center top repeat-x transparent;
+	margin-top: 0;
+	margin-bottom: 0;
+	position: relative;
+	top: -60px;
+	padding-bottom: 0;
+	padding-top: 0;
+	height: 60px;
+}

@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Full-width, no sidebar
+ * Template Name: Full-width-Catering, no sidebar
  * Description: A full-width template with no sidebar
  *
  * @package WordPress
@@ -10,12 +10,14 @@
 get_header();
 get_template_part( 'menu-t', 'index' ); //the  menu + logo/site title ?>
 </diV>
-	<div id="primary">
-		<div id="content" class="mdnineteen">
+	<div id="primary" class="cater">
+		<div id="content">
 			<?php the_post(); ?>
 			<?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id( get_the_ID() ), 'page-header' );
 			$url = $thumb['0'];?>
 			<div id="page-header" style="background-image:url('<?php echo $url; ?>');">
+				<h2 class="entry-title"><?php the_title();?></h2>
+				<a href="tel:123-456-7890" class="btn call order">CLICK TO PLACE ORDER</a>
 			</div>
 			<div class="container">
 				<section class="sixteen columns alpha">
@@ -52,4 +54,4 @@ get_template_part( 'menu-t', 'index' ); //the  menu + logo/site title ?>
 		</div><!-- #content -->
 	</div><!-- #primary -->
 
-<?php get_footer(); ?>
+<?php get_footer(foot2); ?>
