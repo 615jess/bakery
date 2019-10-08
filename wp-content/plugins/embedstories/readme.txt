@@ -1,10 +1,10 @@
-=== EmbedStories - Platform for Instagram Stories  ===
+=== EmbedStories – Display social media stories  ===
 Contributors: embedsocial
 Donate link: 
 Tags: social media feed, social media tools, Instagram stories, Instagram widget, AMP stories 
 Requires at least: 4.0
 Tested up to: 5.0.1
-Stable tag: 0.7.3
+Stable tag: 0.7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 

@@ -17,13 +17,15 @@ get_template_part( 'menu-t', 'index' ); //the  menu + logo/site title ?>
 			$url = $thumb['0'];?>
 			<div id="page-header" style="background-image:url('<?php echo $url; ?>');">
 				<h2 class="entry-title"><?php the_title();?></h2>
-				<a href="tel:123-456-7890" class="btn call order">CLICK TO PLACE ORDER</a>
+				<a href="tel:123-456-7890" class="btn call order">CALL TO PLACE ORDER</a>
 			</div>
-			<div class="container">
+			<div id="wavebreak">
+			</div>
+			<div class="container caterwht">
 				<section class="sixteen columns alpha">
-					<header class="entry-header">
+					<!-- <header class="entry-header">
 						<h2 class="entry-title"><?php the_title();?></h2>
-					</header>
+					</header> -->
 					<div class="entry-content ">
 						<?php the_content(); ?>
 					</div><!-- .entry-content -->

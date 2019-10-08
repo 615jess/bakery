@@ -2,8 +2,8 @@
 /**
  * Plugin Name: Responsive Slider
  * Plugin URI: http://alienwp.com/plugins/responsive-slider
- * Description: A responsive content slider for integrating into themes via a simple shortcode.
- * Version: 0.1.8
+ * Description: A responsive content slider for integrating into themes, pages and posts via a simple shortcode.
+ * Version: 0.1.9
  * Author: AlienWP
  * Author URI: http://alienwp.com
  *
@@ -58,9 +58,7 @@ function responsive_slider_setup() {
 
 	/* Enqueue the JavaScript. */
 	add_action( 'template_redirect', 'responsive_slider_enqueue_scripts' );
-	
-	/* Custom post type icon. */
-	add_action( 'admin_head', 'responsive_slider_cpt_icon' );		
+		
 	
 	/* Add image sizes */
 	add_action( 'init', 'responsive_slider_image_sizes' );
@@ -145,6 +143,7 @@ function responsive_slider_register_cpt() {
 		'not_found'            => __( 'No Slide found', 'responsive-slider' ),
 		'not_found_in_trash'   => __( 'No Slide found in Trash', 'responsive-slider' ), 
 		'parent_item_colon'    => ''
+		
 	);
 	
 	$args = array(
@@ -161,7 +160,8 @@ function responsive_slider_register_cpt() {
 		'supports'             => array( 'title','thumbnail', 'page-attributes' ),
 		'taxonomies'           => array(),
 		'has_archive'          => true,
-		'show_in_nav_menus'    => false
+		'show_in_nav_menus'    => false,
+		 'menu_icon'   => 'dashicons-images-alt2',
 	);
 	
 	register_post_type( 'slides', $args );
@@ -212,22 +212,6 @@ function responsive_slider_enqueue_scripts() {
 	) );
 }
 
-/**
- * Custom post type icon.
- *
- * @since 0.1
- */
-function responsive_slider_cpt_icon() {
-	?>
-	<style type="text/css" media="screen">
-		#menu-posts-slides .wp-menu-image {
-			background: url(<?php echo RESPONSIVE_SLIDER_URI . 'images/slides-icon.png'; ?>) no-repeat 6px -17px !important;
-		}
-		#menu-posts-slides:hover .wp-menu-image {
-			background-position: 6px 7px!important;
-		}	
-	</style>
-<?php }
 
 /**
  * Output the slider.

@@ -1,9 +1,9 @@
 === Simple Custom CSS ===
 Contributors: johnregan3, dvankooten
 Donate Link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BAG2XC69ZYADQ
-Tags: css, styles, custom css, custom
+Tags: css, styles, custom css, custom, code, editor, codemirror
 Requires at least: 3.0.1
-Tested up to: 4.1
+Tested up to: 5.1.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -12,22 +12,24 @@ Add Custom CSS to your WordPress site without any hassles.
 
 == Description ==
 
-An easy-to-use WordPress Plugin to add custom CSS styles that override Plugin and Theme default styles. This plugin is designed to meet the needs of administrators who would like to add their own CSS to their WordPress website.
+An easy-to-use WordPress Plugin to add custom CSS styles that override Plugin and Theme default styles. This plugin is designed to meet the needs of administrators who would like to add their own CSS to their WordPress website.  Styles created with this plugin will render even if the theme is changed.
 
-**New in Version 3.2**
-
-- Improved architecture to reduce the number of queries (Thanks, dvankooten!)
+** New in Version 4.0.2 **
+- Uses native WP CodeMirror on settings page (Does not load unnecessary scripts)
+- Tested for WP version 5.1.1
+- Tested for PHP version 7.2
 
 **Features**
 
-- Active Plugin Support
+- Customizer Control
 - Useful Code Syntax Highlighter
+- Code linting (error checking)
 - No configuration needed
 - Simple interface built on WordPress UI
 - Virtually no impact on site performance
 - No complicated database queries
 - Thorough documentation
-- Allows Administrator access on Multisite
+- Allows Administrator access on WP Networks (Multisite)
 
 == Installation ==
 
@@ -42,6 +44,8 @@ Install Simple Custom CSS just as you would any other WP Plugin:
 4. Go to [Plugins Admin Panel](http://codex.wordpress.org/Administration_Panels#Plugins "Plugins Admin Panel") and find the newly uploaded Plugin, "Simple Custom CSS" in the list.
 
 5. Click Activate Plugin to activate it.
+
+6. Begin using the plugin by going to Appearance > Custom CSS in the Admin Menu, or Appearance > Customize, then click on the "Simple Custom CSS" section.
 
 [More help installing Plugins](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins "WordPress Codex: Installing Plugins")
 
@@ -67,7 +71,7 @@ For instance, you may have:
 
 When you need:
 
-	#content a {
+	\#content a {
 		color: #f00;
 	}
 
@@ -81,11 +85,33 @@ Please check your CSS at the [W3C CSS Validation Service](http://jigsaw.w3.org/c
 
 1. The Simple Custom CSS Administration Screen
 
+2. The Simple Custom CSS Customizer Section
+
 == Changelog ==
+
+= 4.0.2 =
+* Use WP's CodeMirror on settings page
+* Tested for compatibility with WP version 5.1.1
+* Tested for compatibility with PHP version 7.2
+
+= 4.0.1 =
+* Fixed bug with broken editor styles on older versions of WP.
+
+= 4.0 =
+* New Customizer Control (still compatible with older WP versions)
+* Added colors and linting to the Settings Page
+* Updated hooks to replace hyphens with underscores
+* Tested for WPCS compliance
+* Tested for compatibility with WP version 4.9.4
+
+= 3.3 =
+* Added support for https://
+* Added base support for Danish language.  Thanks @ThomasDK81!
+* Tested for compatibility with WP version 4.4.1
 
 = 3.2 =
 * Tested for compatibility with WP 4.1
-* Improved architecture to reduce the number of queries (Thanks, dannyvankooten!)
+* Improved architecture to reduce the number of queries (Thanks, @dvankooten!)
 
 = 3.0.1 =
 * Tested for compatibility with WP 3.9.1
@@ -108,7 +134,7 @@ Please check your CSS at the [W3C CSS Validation Service](http://jigsaw.w3.org/c
 
 = 1.2.1 =
 * Tested for compatibility with WP 3.7.1
-* Code update to conform fully with WP coding standards.
+* Code update to conform fully with WP coding standards
 
 = 1.2 =
 * Give Admins (not just Super Admins) access to the plugin
@@ -125,16 +151,28 @@ Please check your CSS at the [W3C CSS Validation Service](http://jigsaw.w3.org/c
 * Added author attribution option
 * Added a more elegant method for adding CSS to the page:
 
-Instead of using print_scripts to insert the CSS directly into the HEAD, CSS styles are generated within simple-custom-css.php (the sole file for this plugin), then added via wp_enqueue_scripts, so now it will appear in the HEAD as:
+Instead of using print_scripts() to insert the CSS directly into the HEAD, CSS styles are generated within simple-custom-css.php, then added via wp_enqueue_scripts, so now it will appear in the HEAD as:
 
 		<link rel="stylesheet" href="http://yoursite.com/?sccss=1" />
 
 ...even though no css file is actually generated.  Please see the comments within the Plugin file for more detailed information.
 
 = 1.0 =
-* Inital Release
+* Initial Release
 
 == Upgrade Notice ==
+
+= 4.0.2 =
+Tested for compatibility with WP 5.1.1/PHP 7.2.  Use native WP CodeMirror.
+
+= 4.0.1 =
+Settings page style fixes for older versions of WP.
+
+= 4.0 =
+Tested for compatibility with WP 4.9.4.  Added Customizer support.
+
+= 3.3 =
+Tested for compatibility with WP 4.4.1.  Added support for http://.
 
 = 3.2 =
 Tested for compatibility with WP 4.1.  Improved architecture to reduce the number of queries

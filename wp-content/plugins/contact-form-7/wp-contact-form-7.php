@@ -1,35 +1,18 @@
 <?php
 /*
 Plugin Name: Contact Form 7
-Plugin URI: http://contactform7.com/
+Plugin URI: https://contactform7.com/
 Description: Just another contact form plugin. Simple but flexible.
 Author: Takayuki Miyoshi
-Author URI: http://ideasilo.wordpress.com/
+Author URI: https://ideasilo.wordpress.com/
 Text Domain: contact-form-7
 Domain Path: /languages/
-Version: 4.2.2
+Version: 5.1.4
 */
 
-/*  Copyright 2007-2015 Takayuki Miyoshi (email: takayukister at gmail.com)
+define( 'WPCF7_VERSION', '5.1.4' );
 
-    This program is free software; you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation; either version 2 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program; if not, write to the Free Software
-    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
-*/
-
-define( 'WPCF7_VERSION', '4.2.2' );
-
-define( 'WPCF7_REQUIRED_WP_VERSION', '4.1' );
+define( 'WPCF7_REQUIRED_WP_VERSION', '4.9' );
 
 define( 'WPCF7_PLUGIN', __FILE__ );
 
@@ -66,10 +49,19 @@ if ( ! defined( 'WPCF7_ADMIN_READ_WRITE_CAPABILITY' ) ) {
 }
 
 if ( ! defined( 'WPCF7_VERIFY_NONCE' ) ) {
-	define( 'WPCF7_VERIFY_NONCE', true );
+	define( 'WPCF7_VERIFY_NONCE', false );
+}
+
+if ( ! defined( 'WPCF7_USE_REALLY_SIMPLE_CAPTCHA' ) ) {
+	define( 'WPCF7_USE_REALLY_SIMPLE_CAPTCHA', false );
+}
+
+if ( ! defined( 'WPCF7_VALIDATE_CONFIGURATION' ) ) {
+	define( 'WPCF7_VALIDATE_CONFIGURATION', true );
 }
 
 // Deprecated, not used in the plugin core. Use wpcf7_plugin_url() instead.
-define( 'WPCF7_PLUGIN_URL', untrailingslashit( plugins_url( '', WPCF7_PLUGIN ) ) );
+define( 'WPCF7_PLUGIN_URL',
+	untrailingslashit( plugins_url( '', WPCF7_PLUGIN ) ) );
 
 require_once WPCF7_PLUGIN_DIR . '/settings.php';

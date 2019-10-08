@@ -1,7 +1,7 @@
 /* @override 
 	http://localhost:8888/merridees/wp-content/themes/md_trans/trans.css?* */
 
-
+@import url('https://fonts.googleapis.com/css?family=Rouge+Script&display=swap');
 
 /* MENU for CATERING PAGE */
 
@@ -13,11 +13,6 @@
 	padding: 0 0 0 20px;
 }
 
-ul#menu-2019-transition-menu {
-	padding-bottom: 10px;
-	border-top: 1px dotted #000;
-	padding-top: 10px;
-}
 
 .header ul#menu-2019-transition-menu a:link {
 	text-decoration: none;
@@ -37,7 +32,7 @@ ul.menu li ul {
 	right: -35px;
 	top: 10px;
 	visibility:hidden;
-	width: 190px;
+/*	width: 190px;*/
 	text-align: center;
 	padding:10px 0 0 0;
 	margin:0 !important;
@@ -67,7 +62,7 @@ ul.sub-menu li + li {
 .header .menu li ul.sub-menu li a {
 	padding: 0 !important;
 	color: #fff;
-	width: 190px;
+/*	width: 190px;*/
 }
 
 .header .menu li ul.sub-menu li:hover a {
@@ -89,19 +84,114 @@ ul.menu li:hover ul {
 	border-top: 1px dotted #000;
 	border-bottom: 1px dotted #000;
 	display: inline-block!important;
-	width: 60%!important;
 	float: none;
 }
 }
 
-
-/* END CATERING MENU */
-
-body.page-id-3505div#orderonline {
-	width: 30PX;
+#header-meta #addrs.menuinfo {
 	display: inline-block;
-	background-color: red;
 }
+
+
+
+/*----------- revised menu---------*/
+#tmenu .menuinfo {
+	display: inline-block;
+	text-align: left;
+	padding-right: 8px;
+	padding-left: 8px;
+	
+}
+#tmenu #addrs.menuinfo {
+	border-left: 1px dotted #0168b2;
+	border-right: 1px dotted #0168b2;
+	
+}
+#menu {
+/*	display:flex ;*/
+	flex-wrap: wrap;
+	padding-right:32px;
+	padding-left: 32px;
+	color: #0168b2!important;
+	vertical-align: bottom;
+}
+
+ul#menu-2019-transition-menu.menu {
+	float: none;
+}
+
+ul#menu-2019-transition-menu {
+	text-align: center;
+	margin-top: 12px;
+	border-top-color: #0168b2!important;
+}
+
+ul#menu-2019-transition-menu li a
+{
+	color: #0168b2;
+}
+body.page-template-full-width-catering-php div.header div.container {
+		text-align: center;
+	
+}
+
+div#hors.menuinfo div.ctr {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#tmenu {
+	margin-top: 16px;
+	padding-right: 22px;
+	padding-left: 22px;
+	color: #0168b2;
+}
+
+.flxrow {
+	display: block;
+/*	width: 100%;*/
+}
+
+.page-template-full-width-catering-php div.container.flexhdr {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*
+ END CATERING MENU */
+
+/*----ORDER BUTTON-------*/
+
+div#orderonline a.button.orderbtn {
+	font-family: "LeHavreLayers-Primary", "FuturaLT", "Futura", Helvetica, Arial, sans-serif;
+	background-color: #0168b2;
+	white-space: nowrap;
+	padding: 12px;
+	bottom: 10px;
+	position: absolute;
+	
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.button:hover {
+	  background-color: #5cb0ec; /* Green */
+	
+}
+
 
 
 
@@ -109,7 +199,7 @@ body.page-id-3505 .header {
 	background-image: none;
 	background-color: white;
 	outline-color: white;
-	outline-offset: 4px;
+	outline-offset: 6px;
 	outline-style: dashed;
 	outline-width: 2px;
 }
@@ -119,3 +209,199 @@ body.page-id-3505 .header {
 }
 */
 
+div#page-header h2.entry-title {
+	color: #ffffff;
+	background-image: none;
+	font-size: 4em;
+}
+
+div#page-header a.btn.call.order {
+	text-decoration: none;
+	font: 2em 'LeHavreLayers-Primary', FuturaLT, Futura, Helvetica, Arial, sans-serif;
+	color: #ffffff;
+	border: 1px dashed #fff;
+	padding: 22px;
+	display: inline-block;
+}
+
+div#page-header {
+	text-align: center;
+	margin-top: 0;
+	padding-top: 20vh;
+	padding-bottom: 40vh;
+	background-size: cover;
+}
+
+.page-template-full-width-catering-php .scroller{
+	background-color: white;
+}
+
+#primary.cater .entry-content {
+	color: #0168b2;
+}
+
+#primary.cater h4 {
+	font: 3.5em 'Rouge Script', cursive;
+	text-transform: capitalize;
+	font-stretch: normal;
+	letter-spacing: normal;
+	color: #0168b2;
+	word-spacing: normal;
+	margin-bottom: 12px;
+}
+#primary.cater .entry-content h2 {
+	color: #0168b2;
+	border-top: 2px dotted #0168b2;
+	border-bottom: 2px dotted #0168b2;
+	text-align: right;
+	max-width: 30%;
+	min-width: 280px;
+	display: block;
+	clear: both;
+	top: 22px;
+	float: none;
+	position: relative;
+	font: 1.25em Georgia, "Times New Roman", Times, serif;
+	margin: 1px;
+	padding: 10px;
+	letter-spacing: 1px;
+}
+
+#primary.cater .entry-content p:first-of-type{
+	font: normal 1.25em FuturaLT, Futura, Helvetica, Arial, sans-serif;
+	text-transform: none;
+	padding-right: 12%;
+	padding-left: 12%;
+}
+
+
+div#content div.container.caterwht .wp-block-media-text__content ul li {
+	font-weight: bold;
+}
+
+div#content div.container.caterwht .wp-block-media-text__content ul li ul li {
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+#wavebreak {
+	height: 48px;
+	background: url(images/mwave_wht.png) center repeat-x transparent;
+	background-size: contain;
+	position: relative;
+	top: -48px;
+}
+
+
+
+/* @group MENU PRICES on Catering */
+
+ul.menuprices > li {
+	text-transform: titlecase;
+}
+
+
+
+ul.menuprices {
+    max-width: 40em;
+    padding: 0;
+    overflow-x: hidden;
+    list-style: none}
+    
+ul.menuprices li {
+	padding-left: 0;
+	margin-left: 0;
+	clear: left;
+	display: block;
+}
+    
+li.prices:before {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+	font-size: .5em;
+    content:
+". . . . . . . . . . . . . . . . . . . . "
+". . . . . . . . . . . . . . . . . . . . "
+". . . . . . . . . . . . . . . . . . . . "
+". . . . . . . . . . . . . . . . . . . . "}
+li.prices > s {
+    padding-right: 0.33em;
+    background: white;
+	text-decoration: none;
+	text-decoration: none;
+}
+ul.menuprices li.prices > s + s {
+    float: right;
+    padding-left: 0.33em;
+	text-decoration: none;
+	font-weight: normal;
+	font-style: normal;
+	background: white;
+}
+
+/* @end */
+
+/* @group FOOTER */
+
+#foot19 {
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	width: 100%;
+	background: transparent;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	text-align: center;
+	
+}
+
+#foot19 span {
+	padding: 13px 22px;
+	flex: 1;
+}
+
+#foot19 #foot-19addr span {
+	border-left: 1px dotted silver;
+	border-right: 1px dotted silver;
+	
+	}
+	
+	#foot19 div {
+	flex: 1;
+		
+}
+
+	#foot19 a {
+		text-decoration: none;
+		color: white;
+	}
+	
+	div#foot-19hours{
+		text-align: right;
+	}
+	
+	div#foot-19email{
+	text-align: left;
+	}
+	
+	
+	#transfoot.container{
+	width: 100%;
+	margin-right: 0;
+	margin-left: 0;
+	padding-right: 0;
+	padding-left: 0;
+	background: url(images/mwave.jpg) center top repeat-x #0168b2;
+	background-size: 166px;
+	padding-top: 66px;
+	color: white;
+	}
+	
+div#transfoot.container div.copyline span.copyright {
+	border-top-style: none;
+	border-top-color: red;
+}
+/* @end */

@@ -5,7 +5,7 @@ Plugin URI: http://www.embedsocial.com
 Description: Embed Instagram stories on your website
 Author: EmbedSocial
 Author URI: http://www.embedsocial.com
-Version: 0.7.3
+Version: 0.7.4
  */
 
 defined( 'ABSPATH' ) or die;

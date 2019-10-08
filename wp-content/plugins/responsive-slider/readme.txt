@@ -1,10 +1,10 @@
 === Responsive Slider ===
-Contributors: Griden
+Contributors: Griden, ThemeFurnace
 Donate link: 
-Tags: slider, responsive, flex slider, flexslider, slides, jquery slider, slideshow
+Tags: responsive slider, slider, responsive, flex slider, flexslider, slides, jquery slider, slideshow, content slider, gallery slider, image slider, Photo Slider, slide, slider plugin, slideshow, wordpress slider, wordpress slideshow
 Requires at least: 3.3
-Tested up to: 3.5
-Stable tag: 0.1.8
+Tested up to: 4.5.2
+Stable tag: 0.1.9
 
 A responsive slider for integrating into themes via a simple shortcode.
 
@@ -12,12 +12,30 @@ A responsive slider for integrating into themes via a simple shortcode.
 
 The *Responsive Slider* plugin allows you to create slides that consist of linked (to any url) images and titles. The slider would then take those slides and present them as a jQuery-powered slideshow - at a chosen location within your theme, page, or post. In whatever order you want them.
 
+Check out the Demo to see the plugin in action:
 **[See the Demo](http://demo.alienwp.com/responsive-slider/)**
+
+> Upgrade to a paid membership for support, themes & Pro version of plugin:
+> **[Upgrade for Support](http://alienwp.com/register/)**
+> Includes 20 WordPress Themes, Customer Support for just $59
 
 The main purpose of the *Responsive Slider* is to serve as an effective addition to **responsive WordPress themes**, as it would automatically adjust to its container. This would work out of the box - there is no need for additional CSS or JavaScript tweaks from your theme.
 
+Please note, this plugin is only for use on Self-Hosted WordPress installations, not WordPress.com. See this <a href="https://themefurnace.com/blog/best-wordpress-hosting/">Guide to the Best WordPress Hosting</a> if you need any help choosing one.
+
 [How to Install and Use the plugin?](http://wordpress.org/extend/plugins/responsive-slider/installation/)
 Make sure to read the plugin documentation in `docs/readme.html` as well.
+
+= About AlienWP =
+
+Responsive Slider was created by AlienWP, a <a href="https://alienwp.com">WordPress Theme Shop</a> which offers over 20 WordPress themes for you to download including 8 <a href="https://alienwp.com/themes/">free themes</a>. We also provide amazing <a href="https://alienwp.com/wordpress-coupon-codes/">WordPress Deals and Coupons</a> and <a href="https://alienwp.com/collections/">Theme Collections</a> for every possible type of WP site. 
+
+If you like this plugin, check out our other projects:
+
+* <a href="https://alienwp.com/" rel="friend" title="AlienWP">AlienWP</a> - Minimal WordPress Themes
+* <a href="https://themefurnace.com/" rel="friend" title="ThemeFurnace">ThemeFurnace</a> - WordPress Themes Club
+* <a href="http://kooc.co.uk/" rel="friend" title="Kooc Media">Kooc Media</a> - Kooc Media
+
 
 == Installation ==
 
@@ -54,6 +72,9 @@ Sure, you can easily override the slider CSS in your theme. The easiest approach
 No, currently the plugin can maintain only one slider.
 
 == Changelog ==
+
+= 0.1.9 =
+* Updated some links, documentation in preparation for new version of plugin along with pro version
 
 = 0.1.8 =
 * Fix: omit the anchor tag if the 'URL' field is empty.
